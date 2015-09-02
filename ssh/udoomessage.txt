@@ -1,0 +1,13 @@
+Welcome to Harrison's UDOO!
+Feel free to leave me a message in the guestbook (/etc/guestbook.txt)!
+
+-----DEVICE SPECIFICATIONS-----
+DEVICE: UDOO Quad Single Board Computer
+CPU:    1) Freescale i.MX6Quad, 4 x ARM Cortex-A9 core @ 1GHz
+        2) Atmel SAM3X8E ARM Cortex-M3 @ 84MHz
+GPU:    i.MX6Quad Integrated Graphics
+RAM:    1) 1GB DDR3
+        2) 96KB SRAM
+DISK:   1) 64GB MicroSD
+        2) 512KB Flash Memory
+OS:     Arch Linux for ARMv7
