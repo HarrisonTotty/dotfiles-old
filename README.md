@@ -6,7 +6,7 @@ This is my current bash prompt configuration. One file is used by my account whi
 
 ![Screenshot](http://i.imgur.com/ynw5tCI.png "bash screenshot")
 
-### /lynx/lynx.conf
+### /lynx/lynx.conf and /lynx/lynx.lss
 My lynx configuration adds a few improvements to lynx (well, to me anyways):
 * Pauses during page loads are removed
 * Links are now numbered
@@ -14,8 +14,9 @@ My lynx configuration adds a few improvements to lynx (well, to me anyways):
 * The homepage has been changed to the Arch Wiki
 * User interface is set to "advanced" mode
 * Long URLs are shortened
+* Interface colors are prettier
 
-![Screenshot](https://i.imgur.com/jqlnG43.png "lynx screenshot")
+![Screenshot](http://i.imgur.com/Bmnsn2b.png "lynx screenshot")
 
 ### /ssh/udoomessage.txt
 My custom banner file for the ssh server hosted on my UDOO.
