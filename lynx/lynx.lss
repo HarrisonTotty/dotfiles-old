@@ -1,0 +1,120 @@
+# This is a modification to the default "lynx.css" file
+# Be sure to put this file in "/etc/" or modify "/etc/lynx.conf" to point to this file
+
+
+
+# Setting the normal and default types lets us keep (almost) the same colors
+# whether the terminal's default colors are white-on-black or black-on-white.
+# It is not exact since the default "white" is not necessarily the same color
+# as the ANSI lightgray, but is as close as we can get in a standard way.
+#
+# If you really want the terminal's default colors, and if lynx is built using
+# ncurses' default-color support, remove these two lines:
+normal:		normal:			lightgray:black
+default:	normal:			white:black
+
+# Normal type styles correspond to HTML tags.
+#
+# The next line (beginning with "em") means:  use bold if mono, otherwise
+# brightblue on <defaultbackground>
+em:		bold:			brightblue
+strong:		bold:			brightred
+b:		bold:			brightred
+i:		bold:			brightblue
+a:		bold:			brightblue
+img:		dim:			brightblue
+fig:		normal:			gray
+caption:	reverse:		brightblue
+hr:		normal:			brightgreen
+blockquote:	normal:			brightblue
+ul:		normal:			brightblue
+address:	normal:			brightmagenta
+title:		normal:			brightmagenta
+tt:		dim:			brightmagenta:	black
+h1:		bold:			white:		brightblue
+label:		normal:			brightmagenta
+q:		normal:			brightgreen:		brightmagenta
+small:		dim:			default
+big:		bold:			brightgreen
+sup:		bold:			brightgreen
+sub:		dim:			gray
+li:		normal:			brightmagenta
+code:		normal:			blue
+cite:		normal:			blue
+
+table:		normal:			brightcyan
+tr:		bold:			brightblue
+td:		normal:			default
+br:		normal:			default
+
+# Special styles - not corresponding directly to HTML tags
+#	alert	- status bar, when message begins "Alert".
+#	alink	- active link
+#	normal	- default attributes
+#	status	- status bar
+#	whereis	- whereis search target
+#
+#normal:normal:default:brightblue
+alink:		reverse:		brightgreen:		black
+status:		reverse:		white:		brightblue
+alert:		bold:			brightgreen:		brightred
+whereis:	reverse+underline:	brightmagenta:	blue
+# currently not used
+#value:normal:green
+
+menu.bg:	normal:			black:		lightgray
+menu.frame:	normal:			black:		lightgray
+menu.entry:	normal:			lightgray:	black
+menu.n:		normal:			brightred:		gray
+menu.active:	normal:			brightgreen:		black
+menu.sb:	normal:			brightred:	lightgray
+
+forwbackw.arrow:reverse
+hot.paste:	normal:			brightred:	gray
+
+# Styles with classes - <ul class=brightred> etc.
+ul.brightred:		underline:		brightred
+ul.brightblue:	bold:			brightblue
+li.brightred:		reverse:		brightred:		brightgreen
+li.brightblue:	bold:			brightblue
+strong.a:	bold:			black:		brightred
+em.a:		reverse:		black:		brightblue
+strong.b:	bold:			white:		brightred
+em.b:		reverse:		white:		brightblue
+strong.debug:	reverse:		green
+font.letter:	normal:			white:		brightblue
+input.submit:	normal:			blue
+tr.baone:	bold:			brightgreen
+tr.batwo:	bold:			green
+tr.bathree:	bold:			brightred
+#
+# Special handling for link.
+link:		normal:			white
+link.green:	bold:			brightgreen
+link.brightred:	bold:			black:		brightred
+link.brightblue:	bold:			white:		brightblue
+link.toc:	bold:			black:		white
+# Special cases for link - the rel or title is appended after the class.
+# <link rel=next class=brightred href="1">
+link.brightred.next:	bold:			brightred
+link.brightred.prev:	bold:			brightgreen:		brightred
+link.brightblue.prev:	bold:			brightgreen:		brightblue
+link.brightblue.next:	bold:			brightblue
+link.green.toc:	bold:			white:		green
+#
+# Define styles that will be used when syntax highlighting is requested
+# (commandline option -prettysrc). 
+span.htmlsrc_comment:normal:		white
+span.htmlsrc_tag:normal:		white
+#If you don't like that the tag name and attribute name are displayed 
+#in different colors, comment the following line. 
+span.htmlsrc_attrib:normal:		blue
+span.htmlsrc_attrval:normal:		brightmagenta
+span.htmlsrc_abracket:normal:		white
+span.htmlsrc_entity:normal:		white
+##span.htmlsrc_href:
+##span.htmlsrc_entire:
+span.htmlsrc_badseq:normal:		brightred
+span.htmlsrc_badtag:normal:		brightred
+span.htmlsrc_badattr:normal:		brightred
+span.htmlsrc_sgmlspecial:normal:	brightgreen
