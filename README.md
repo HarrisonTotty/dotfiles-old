@@ -12,6 +12,9 @@ My lynx configuration adds a few improvements to lynx (well, to me anyways):
 
 ![Screenshot](https://i.imgur.com/jqlnG43.png "lynx screenshot")
 
+### /ssh/udoomessage.txt
+My custom banner file for the ssh server hosted on my UDOO.
+
 ### /tmux/.tmux.conf
 My current tmux configuration has the hostname in the bottom left status bar. The right status bar shows the IP address of the machine and also the date/time:
 
