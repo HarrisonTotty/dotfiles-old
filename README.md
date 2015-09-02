@@ -1,6 +1,11 @@
 # dotfiles
 A collection of various configuration files I have written. Config files are organized by program, with the most recent configuration (that I am using) appropriately named. For example, "dotfiles/tmux/.tmux.conf" is my latest tmux configuration. Please note that I am still in the process of adding things.
 
+### /bash/.bashrc and /bash/root.bashrc
+This is my current bash prompt configuration. One file is used by my account while the other is used by the root account. The prompt starts out "light blue", but then changes to "light red" when the root account is used. Commands themselves are still entered in the default color.
+
+![Screenshot](http://i.imgur.com/ynw5tCI.png "bash screenshot")
+
 ### /lynx/lynx.conf
 My lynx configuration adds a few improvements to lynx (well, to me anyways):
 * Pauses during page loads are removed
