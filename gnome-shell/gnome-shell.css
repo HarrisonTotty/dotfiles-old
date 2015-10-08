@@ -1,0 +1,15 @@
+stage {
+  font-family: uushi;
+  font-size: 9pt; }
+
+#panel {
+    font-family: uushi;
+    font-size: 9pt;
+    font-weight: normal;
+    background-color: #333333;
+}﻿
+
+.panel-button {
+    font-family: uushi;
+    font-size: 9pt;
+}
