@@ -19,5 +19,10 @@ fi
 # Aliases (Alias'?)
 alias ls='ls --color=auto'
 
+# Functions
+function tweet {
+  ttytter -script -status="$1"
+}
+
 # My Prompt
 PS1='\e[94m[\w] : \e[39m'
