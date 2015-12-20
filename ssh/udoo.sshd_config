@@ -1,5 +1,6 @@
 # This is the ssh server configuration file for openssh on the udoo.
 # Be sure to name this file "sshd_config" and place it in "/etc/ssh"
+# Also make sure that the "sshd.service" service is started and enabled in systemctl
 
 # The strategy used for options in the default sshd_config shipped with
 # OpenSSH is to specify options with their default value where
