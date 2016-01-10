@@ -5,15 +5,7 @@
 [[ $- != *i* ]] && return
 
 # Aliases (Alias'?)
-alias ls='ls --color=auto'
-
-# Functions
-# function example {
-#   echo "This is an example function..."
-# }
-
-# Default PS1
-# PS1='[\u@\h \W]\$ '
+alias ls='ls -A --color=auto'
 
 # My prompt
 PS1='\e[94m[\w] : \e[39m'
